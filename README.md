@@ -4,10 +4,9 @@
 
 * [lodash](https://github.com/lodash/lodash) - 含有多个工具函数，包含数组，字符串，函数等类型
 * [color-convert](https://github.com/Qix-/color-convert) - 颜色格式转换
-
-
-
-## promise
+* [classnames](https://github.com/JedWatson/classnames) - 用来控制类名的工具，代码可读性高
+* [fill-range](https://github.com/jonschlinkert/fill-range) - 补齐一段距离中间的数字、字母
+* ms - 把毫秒转化成标准时间格式
 
 
 
@@ -18,8 +17,8 @@
 * [redux-logger](https://github.com/LogRocket/redux-logger) - redux查看state的中间件
 * [react-router](https://github.com/ReactTraining/react-router) - react的路由管理
 * [ant-design](https://github.com/ant-design/ant-design) - react的UI库
-
-
+* [react-document-title](https://github.com/gaearon/react-document-title) - react切换页面时，浏览器title会跟着变化
+* [react-media](https://github.com/ReactTraining/react-media) - 类似于css的media，不同的查询条件下显示不同的内容
 
 
 
@@ -55,22 +54,28 @@
 
 ## http
 
-* [axios](https://github.com/axios/axios) - 常用于浏览器端的http请求
-* [request](https://github.com/request/request) - 常用于服务端的http请求
+* [axios](https://github.com/axios/axios) - 常用于的http请求工具
+* [mockjs](https://github.com/nuysoft/Mock) - 伪造的http请求
+
+
+
+## 爬虫
+
+* [cheerio](https://github.com/cheeriojs/cheerio) - 用jQuery api的方式读取html模板里的内容
+* [iconv-lite](https://github.com/ashtuchkin/iconv-lite) - 改变页面的encoding，如果页面charset是gbk的可以使用这个。
 
 
 
 ## template
 
 * [shtml2html](https://github.com/librajt/shtml2html) - 编译shtml文件，转换成html
-* [cheerio](https://github.com/cheeriojs/cheerio) - 用jQuery api的方式读取html模板里的内容
 
 
 
 ## 浏览器
 
 * [browser-sync](https://github.com/BrowserSync/browser-sync) - 浏览器热更新，文件监听等
-* [opn](https://github.com/sindresorhus/open) - 打开文件，网址等
+* [open](https://github.com/sindresorhus/open) - 打开文件，网址等
 
 
 
@@ -84,9 +89,12 @@
 
 
 
-## express
+## 图形界面
+
+* [gg-editor](https://github.com/gaoli/GGEditor) - 包含流程图、脑图等
 
 
 
-## egg
+## 装饰器
 
+* [lodash-decorators](https://github.com/steelsojka/lodash-decorators) - lodash的装饰器
