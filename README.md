@@ -9,6 +9,7 @@
 
 ## promise
 
+* [p-queue](https://github.com/sindresorhus/p-queue) - 所有异步代码可以在队列中按顺序执行
 
 
 ## react
@@ -18,8 +19,6 @@
 * [redux-logger](https://github.com/LogRocket/redux-logger) - redux查看state的中间件
 * [react-router](https://github.com/ReactTraining/react-router) - react的路由管理
 * [ant-design](https://github.com/ant-design/ant-design) - react的UI库
-
-
 
 
 
@@ -70,7 +69,7 @@
 ## 浏览器
 
 * [browser-sync](https://github.com/BrowserSync/browser-sync) - 浏览器热更新，文件监听等
-* [opn](https://github.com/sindresorhus/open) - 打开文件，网址等
+* [open](https://github.com/sindresorhus/open) - 打开文件，网址等
 
 
 
