@@ -6,13 +6,14 @@
 * [color-convert](https://github.com/Qix-/color-convert) - 颜色格式转换
 * [classnames](https://github.com/JedWatson/classnames) - 用来控制类名的工具，代码可读性高
 * [fill-range](https://github.com/jonschlinkert/fill-range) - 补齐一段距离中间的数字、字母
+* [address](https://github.com/node-modules/address) - 检测本机IP, mac等
 * [ms](https://github.com/zeit/ms) - 把毫秒转化成标准时间格式
 
 
 
 ## Promise
 
-* [p-queue](https://github.com/sindresorhus/p-queue) - 所有异步代码可以在队列中按顺序执行
+* [p-each-series](https://github.com/sindresorhus/p-each-series) - 所有异步代码可以在队列中按顺序执行
 
 
 
@@ -24,9 +25,10 @@
 * [redux-logger](https://github.com/LogRocket/redux-logger) - redux查看state的中间件
 * [react-router](https://github.com/ReactTraining/react-router) - react的路由管理
 * [ant-design](https://github.com/ant-design/ant-design) - react的UI库
+* [ant-design-pro](https://github.com/ant-design/ant-design-pro) - react后台管理系统解决方案
 * [react-document-title](https://github.com/gaearon/react-document-title) - react切换页面时，浏览器title会跟着变化
 * [react-media](https://github.com/ReactTraining/react-media) - 类似于css的media，不同的查询条件下显示不同的内容
-* 
+* [umi](https://github.com/umijs/umi) - react脚手架
 
 
 
