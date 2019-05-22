@@ -6,8 +6,8 @@
 * [color-convert](https://github.com/Qix-/color-convert) - 颜色格式转换
 * [classnames](https://github.com/JedWatson/classnames) - 用来控制类名的工具，代码可读性高
 * [fill-range](https://github.com/jonschlinkert/fill-range) - 补齐一段距离中间的数字、字母
+* [address](https://github.com/node-modules/address) - 检测本机IP, mac等
 * ms - 把毫秒转化成标准时间格式
-
 * [p-queue](https://github.com/sindresorhus/p-queue) - 所有异步代码可以在队列中按顺序执行
 
 
