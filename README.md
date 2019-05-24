@@ -8,6 +8,10 @@
 * [fill-range](https://github.com/jonschlinkert/fill-range) - 补齐一段距离中间的数字、字母
 * [address](https://github.com/node-modules/address) - 检测本机IP, mac等
 * [ms](https://github.com/zeit/ms) - 把毫秒转化成标准时间格式
+* [bytes](https://github.com/visionmedia/bytes.js) - 把比特值转换成其他单位的
+* [semver](https://github.com/npm/node-semver) - 版本验证库
+* [cross-env](https://github.com/kentcdodds/cross-env) - 设置Node环境变量
+* [uuid](https://github.com/kelektiv/node-uuid) - 生成唯一的id
 
 
 
@@ -16,19 +20,20 @@
 * [p-each-series](https://github.com/sindresorhus/p-each-series) - 所有异步代码可以在队列中按顺序执行
 
 
-
-
 ## react
 
 * [redux](https://github.com/reduxjs/redux) - react的状态管理工具
 * [redux-saga](https://github.com/redux-saga/redux-saga) - redux的异步行为中间件
 * [redux-logger](https://github.com/LogRocket/redux-logger) - redux查看state的中间件
 * [react-router](https://github.com/ReactTraining/react-router) - react的路由管理
+* [reselect](https://github.com/reduxjs/reselect) - 缓存redux state派生的数据
 * [ant-design](https://github.com/ant-design/ant-design) - react的UI库
 * [ant-design-pro](https://github.com/ant-design/ant-design-pro) - react后台管理系统解决方案
 * [react-document-title](https://github.com/gaearon/react-document-title) - react切换页面时，浏览器title会跟着变化
 * [react-media](https://github.com/ReactTraining/react-media) - 类似于css的media，不同的查询条件下显示不同的内容
 * [umi](https://github.com/umijs/umi) - react脚手架
+* [react-dnd](https://github.com/react-dnd/react-dnd) - react的拖拽实现
+* [react-use](https://github.com/streamich/react-use) - react use hook的集合
 
 
 
@@ -52,13 +57,19 @@
 
 * [node-sass](https://github.com/sass/node-sass) - 将sass编译成css
 * [autoprefixer](https://github.com/postcss/autoprefixer) - 为css语句添加前缀
+* [purifycss](https://github.com/purifycss/purifycss) - 移除无用的css
 
 
 
 ## 命令行
 
 * [shelljs](https://github.com/shelljs/shelljs) - 在代码中运行shell语句
-* [chalk](https://github.com/chalk/chalk) - 用各种颜色在命令行里显示内容
+* [chalk](https://github.com/chalk/chalk) - 命令行着色美化库
+* [signale](https://github.com/klaussinani/signale)-  一个 Node 的日志格式库，自带 16 个级别，可以定制颜色和 Emoji
+* [dumper.js](https://github.com/ziishaned/dumper.js) - 能让你的 node console 更加的规整，方便调试
+* [fx](https://github.com/antonmedv/fx) - 命令行优化 JSON 输出
+* [boxen](https://github.com/sindresorhus/boxen) - 在命令行里用box包裹输出内容
+* [figures](https://github.com/sindresorhus/figures) - 在命令行里输入图标
 
 
 
@@ -96,6 +107,7 @@
 * [glob-parent](https://github.com/es128/glob-parent) - 获取文件所在文件夹的路径
 * [mkdirp](https://github.com/substack/node-mkdirp) - 提供递归的文件夹创建。在node V10.12.0后由fs.mkdir提供。
 * [fs-extra](https://github.com/jprichardson/node-fs-extra) - node的fs模块的拓展
+* [rimraf](https://github.com/isaacs/rimraf) - 深层次的删除文件
 
 
 
@@ -108,3 +120,12 @@
 ## 装饰器
 
 * [lodash-decorators](https://github.com/steelsojka/lodash-decorators) - lodash的装饰器
+
+## 验证
+
+* [ajv](https://github.com/epoberezkin/ajv) - JSON Schema 验证
+
+## 中国
+
+* [pinyin](https://github.com/hotoo/pinyin) - 汉字拼音转换工具
+* [LunarCalendar](https://github.com/zzyss86/LunarCalendar) - 农历（阴历）万年历类库
