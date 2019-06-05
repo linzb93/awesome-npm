@@ -20,6 +20,8 @@
 * [p-each-series](https://github.com/sindresorhus/p-each-series) - 所有异步代码可以在队列中按顺序执行
 
 
+
+
 ## react
 
 * [redux](https://github.com/reduxjs/redux) - react的状态管理工具
@@ -64,12 +66,21 @@
 ## 命令行
 
 * [shelljs](https://github.com/shelljs/shelljs) - 在代码中运行shell语句
+* [commander](https://github.com/tj/commander.js) - 管理命令行的参数
+* [inquirer](https://github.com/SBoudrias/Inquirer.js) - 在命令行里发起问答式语句
+
+
+
+## 打印
+
 * [chalk](https://github.com/chalk/chalk) - 命令行着色美化库
 * [signale](https://github.com/klaussinani/signale)-  一个 Node 的日志格式库，自带 16 个级别，可以定制颜色和 Emoji
 * [dumper.js](https://github.com/ziishaned/dumper.js) - 能让你的 node console 更加的规整，方便调试
 * [fx](https://github.com/antonmedv/fx) - 命令行优化 JSON 输出
 * [boxen](https://github.com/sindresorhus/boxen) - 在命令行里用box包裹输出内容
 * [figures](https://github.com/sindresorhus/figures) - 在命令行里输入图标
+* [log4js](https://github.com/log4js-node/log4js-node) - Node标准日志库
+* [bunyan](https://github.com/trentm/node-bunyan) - Node日志库，包含主机名称，进程号等信息
 
 
 
@@ -121,9 +132,13 @@
 
 * [lodash-decorators](https://github.com/steelsojka/lodash-decorators) - lodash的装饰器
 
+
+
 ## 验证
 
 * [ajv](https://github.com/epoberezkin/ajv) - JSON Schema 验证
+
+
 
 ## 中国
 
