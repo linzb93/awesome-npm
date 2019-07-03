@@ -84,6 +84,7 @@
 * [figures](https://github.com/sindresorhus/figures) - 在命令行里输入图标
 * [log4js](https://github.com/log4js-node/log4js-node) - Node标准日志库
 * [bunyan](https://github.com/trentm/node-bunyan) - Node日志库，包含主机名称，进程号等信息
+* [ora](https://github.com/sindresorhus/ora) - 可以在命令行里输出loading状态
 
 
 
