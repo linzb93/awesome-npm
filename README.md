@@ -19,6 +19,7 @@
 ## Promise
 
 * [p-each-series](https://github.com/sindresorhus/p-each-series) - 所有异步代码可以在队列中按顺序执行
+* [pify](https://github.com/sindresorhus/pify) - 函数Promise化
 
 
 
@@ -70,6 +71,7 @@
 * [shelljs](https://github.com/shelljs/shelljs) - 在代码中运行shell语句
 * [commander](https://github.com/tj/commander.js) - 管理命令行的参数
 * [inquirer](https://github.com/SBoudrias/Inquirer.js) - 在命令行里发起问答式语句
+* [progress](https://github.com/visionmedia/node-progress) - 在命令行显示进度条
 
 
 
@@ -128,6 +130,8 @@
 ## 图形界面
 
 * [gg-editor](https://github.com/gaoli/GGEditor) - 包含流程图、脑图等
+* [echarts](https://github.com/apache/incubator-echarts) - 可视化库
+* [echarts-map-data](https://github.com/taozhiw/echarts-map-data) - 基于echarts的地图，包含世界各国，中国各省
 
 
 
