@@ -12,6 +12,7 @@
 * [semver](https://github.com/npm/node-semver) - 版本验证库
 * [cross-env](https://github.com/kentcdodds/cross-env) - 设置Node环境变量
 * [uuid](https://github.com/kelektiv/node-uuid) - 生成唯一的id
+* [sharp](https://github.com/lovell/sharp) - 最快的图片压缩工具
 
 
 
@@ -30,13 +31,14 @@
 * [redux-logger](https://github.com/LogRocket/redux-logger) - redux查看state的中间件
 * [react-router](https://github.com/ReactTraining/react-router) - react的路由管理
 * [reselect](https://github.com/reduxjs/reselect) - 缓存redux state派生的数据
+* [immer](https://github.com/immerjs/immer) - 通过改变当前数据来生成下一个不可变数据
 * [ant-design](https://github.com/ant-design/ant-design) - react的UI库
 * [ant-design-pro](https://github.com/ant-design/ant-design-pro) - react后台管理系统解决方案
+* [umi](https://github.com/umijs/umi) - react脚手架
+* [react-use](https://github.com/streamich/react-use) - react use hook的集合
 * [react-document-title](https://github.com/gaearon/react-document-title) - react切换页面时，浏览器title会跟着变化
 * [react-media](https://github.com/ReactTraining/react-media) - 类似于css的media，不同的查询条件下显示不同的内容
-* [umi](https://github.com/umijs/umi) - react脚手架
 * [react-dnd](https://github.com/react-dnd/react-dnd) - react的拖拽实现
-* [react-use](https://github.com/streamich/react-use) - react use hook的集合
 
 
 
@@ -78,7 +80,7 @@
 * [signale](https://github.com/klaussinani/signale)-  一个 Node 的日志格式库，自带 16 个级别，可以定制颜色和 Emoji
 * [dumper.js](https://github.com/ziishaned/dumper.js) - 能让你的 node console 更加的规整，方便调试
 * [fx](https://github.com/antonmedv/fx) - 命令行优化 JSON 输出
-* [boxen](https://github.com/sindresorhus/boxen) - 在命令行里用box包裹输出内容
+* [boxen](https://github.com/sindresorhus/boxen) - 在命令行里用边框包裹输出内容
 * [figures](https://github.com/sindresorhus/figures) - 在命令行里输入图标
 * [log4js](https://github.com/log4js-node/log4js-node) - Node标准日志库
 * [bunyan](https://github.com/trentm/node-bunyan) - Node日志库，包含主机名称，进程号等信息
@@ -99,7 +101,7 @@
 
 
 
-## template
+## 模板
 
 * [shtml2html](https://github.com/librajt/shtml2html) - 编译shtml文件，转换成html
 
@@ -120,6 +122,7 @@
 * [mkdirp](https://github.com/substack/node-mkdirp) - 提供递归的文件夹创建。在node V10.12.0后由fs.mkdir提供。
 * [fs-extra](https://github.com/jprichardson/node-fs-extra) - node的fs模块的拓展
 * [rimraf](https://github.com/isaacs/rimraf) - 深层次的删除文件
+* [treer](https://github.com/derycktse/treer) - 在命令行或者纯文本文件输出文件夹的文件树
 
 
 
