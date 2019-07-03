@@ -18,6 +18,7 @@
 ## Promise
 
 * [p-each-series](https://github.com/sindresorhus/p-each-series) - 所有异步代码可以在队列中按顺序执行
+* [is-promise](https://github.com/then/is-promise) - 判断是否是Promise实例
 
 
 
