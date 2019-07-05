@@ -1,5 +1,7 @@
 # awesome- npm
 
+[TOC]
+
 ## 工具
 
 * [lodash](https://github.com/lodash/lodash) - 含有多个工具函数，包含数组，字符串，函数等类型
@@ -7,7 +9,6 @@
 * [classnames](https://github.com/JedWatson/classnames) - 用来控制类名的工具，代码可读性高
 * [fill-range](https://github.com/jonschlinkert/fill-range) - 补齐一段距离中间的数字、字母
 * [address](https://github.com/node-modules/address) - 检测本机IP, mac等
-* [ms](https://github.com/zeit/ms) - 把毫秒转化成标准时间格式
 * [bytes](https://github.com/visionmedia/bytes.js) - 把比特值转换成其他单位的
 * [semver](https://github.com/npm/node-semver) - 版本验证库
 * [cross-env](https://github.com/kentcdodds/cross-env) - 设置Node环境变量
@@ -21,8 +22,6 @@
 * [p-each-series](https://github.com/sindresorhus/p-each-series) - 所有异步代码可以在队列中按顺序执行
 * [pify](https://github.com/sindresorhus/pify) - 函数Promise化
 * [is-promise](https://github.com/then/is-promise) - 判断是否是Promise实例
-
-
 
 
 ## react
@@ -51,28 +50,11 @@
 
 
 
-## webpack
-
-* [webpack-merge](https://github.com/survivejs/webpack-merge) - 用来合并webpack的配置项
-* [webpack-dev-middleware](https://github.com/webpack/webpack-dev-middleware) - webpack搭建开发环境的中间件
-* [webpack-hot-middleware](https://github.com/webpack-contrib/webpack-hot-middleware) - webpack热更新的中间件
-
-
-
-## css
-
-* [node-sass](https://github.com/sass/node-sass) - 将sass编译成css
-* [autoprefixer](https://github.com/postcss/autoprefixer) - 为css语句添加前缀
-* [purifycss](https://github.com/purifycss/purifycss) - 移除无用的css
-
-
-
 ## 命令行
 
 * [shelljs](https://github.com/shelljs/shelljs) - 在代码中运行shell语句
 * [commander](https://github.com/tj/commander.js) - 管理命令行的参数
 * [inquirer](https://github.com/SBoudrias/Inquirer.js) - 在命令行里发起问答式语句
-* [progress](https://github.com/visionmedia/node-progress) - 在命令行显示进度条
 
 
 
@@ -87,6 +69,7 @@
 * [log4js](https://github.com/log4js-node/log4js-node) - Node标准日志库
 * [bunyan](https://github.com/trentm/node-bunyan) - Node日志库，包含主机名称，进程号等信息
 * [ora](https://github.com/sindresorhus/ora) - 可以在命令行里输出loading状态
+* [progress](https://github.com/visionmedia/node-progress) - 在命令行显示进度条
 
 
 
@@ -95,6 +78,11 @@
 * [axios](https://github.com/axios/axios) - 常用于的http请求工具
 * [mockjs](https://github.com/nuysoft/Mock) - 伪造的http请求
 
+
+## 时间
+
+* [ms](https://github.com/zeit/ms) - 把毫秒转化成标准时间格式
+* [moment](https://github.com/moment/moment) - 功能丰富的日期库
 
 
 ## 爬虫
@@ -136,11 +124,24 @@
 * [echarts-map-data](https://github.com/taozhiw/echarts-map-data) - 基于echarts的地图，包含世界各国，中国各省
 
 
+## webpack
+
+- [webpack-merge](https://github.com/survivejs/webpack-merge) - 用来合并webpack的配置项
+- [webpack-dev-middleware](https://github.com/webpack/webpack-dev-middleware) - webpack搭建开发环境的中间件
+- [webpack-hot-middleware](https://github.com/webpack-contrib/webpack-hot-middleware) - webpack热更新的中间件
+- [webpack-bundle-analyzer](https://github.com/webpack-contrib/webpack-bundle-analyzer) - webpack分析依赖包的大小
+
 
 ## 装饰器
 
 * [lodash-decorators](https://github.com/steelsojka/lodash-decorators) - lodash的装饰器
 
+
+## css
+
+- [node-sass](https://github.com/sass/node-sass) - 将sass编译成css
+- [autoprefixer](https://github.com/postcss/autoprefixer) - 为css语句添加前缀
+- [purifycss](https://github.com/purifycss/purifycss) - 移除无用的css
 
 
 ## 验证
