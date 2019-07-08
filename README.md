@@ -38,7 +38,6 @@
 * [doctoc](https://github.com/thlorenz/doctoc) - markdown目录生成工具
 * [clipboardy](https://github.com/sindresorhus/clipboardy) - 剪贴板粘贴工具
 * [chancejs](https://github.com/chancejs/chancejs) - 生成随机数据的库
-* [he](https://github.com/mathiasbynens/he) - 前端encoder / decoder
 
 ## Promise
 
@@ -104,6 +103,7 @@
 
 * [cheerio](https://github.com/cheeriojs/cheerio) - 用jQuery api的方式读取html模板里的内容
 * [iconv-lite](https://github.com/ashtuchkin/iconv-lite) - 改变页面的encoding，如果页面charset是gbk的可以使用这个。
+* [he](https://github.com/mathiasbynens/he) - 前端encoder / decoder
 
 ## 模板
 
@@ -155,6 +155,7 @@
 ## 验证
 
 * [ajv](https://github.com/epoberezkin/ajv) - JSON Schema 验证
+* [async-validator](https://github.com/yiminghe/async-validator) - 支持异步验证
 
 ## 中国
 
