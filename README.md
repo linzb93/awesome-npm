@@ -33,7 +33,6 @@
 
 - [node-sass](https://github.com/sass/node-sass) - 将sass编译成css
 - [autoprefixer](https://github.com/postcss/autoprefixer) - 为css语句添加前缀
-- [purifycss](https://github.com/purifycss/purifycss) - 移除无用的css
 
 ## http
 
@@ -59,10 +58,6 @@
 * [ant-design](https://github.com/ant-design/ant-design) - react的UI库
 * [ant-design-pro](https://github.com/ant-design/ant-design-pro) - react后台管理系统解决方案
 * [umi](https://github.com/umijs/umi) - react脚手架
-* [react-use](https://github.com/streamich/react-use) - react use hook的集合
-* [react-document-title](https://github.com/gaearon/react-document-title) - react切换页面时，浏览器title会跟着变化
-* [react-media](https://github.com/ReactTraining/react-media) - 类似于css的media，不同的查询条件下显示不同的内容
-* [react-dnd](https://github.com/react-dnd/react-dnd) - react的拖拽实现
 
 ## vue
 
@@ -86,7 +81,6 @@
 
 * [chalk](https://github.com/chalk/chalk) - 命令行着色美化库
 * [signale](https://github.com/klaussinani/signale)-  一个 Node 的日志格式库，自带 16 个级别，可以定制颜色和 Emoji
-* [dumper.js](https://github.com/ziishaned/dumper.js) - 能让你的 node console 更加的规整，方便调试
 * [boxen](https://github.com/sindresorhus/boxen) - 在命令行里用边框包裹输出内容
 * [figures](https://github.com/sindresorhus/figures) - 在命令行里输入图标
 * [progress](https://github.com/visionmedia/node-progress) - 在命令行显示进度条
@@ -105,9 +99,7 @@
 - [bytes](https://github.com/visionmedia/bytes.js) - 把比特值转换成其他单位的
 - [semver](https://github.com/npm/node-semver) - 版本验证库
 - [cross-env](https://github.com/kentcdodds/cross-env) - 设置Node环境变量
-- [sharp](https://github.com/lovell/sharp) - 最快的图片压缩工具
 - [doctoc](https://github.com/thlorenz/doctoc) - markdown目录生成工具
-- [clipboardy](https://github.com/sindresorhus/clipboardy) - 剪贴板粘贴工具
 - [debug](https://github.com/visionmedia/debug) - 调试工具，在调试模式下可以只针对某些功能进行调试
 - [npm-check](https://github.com/dylang/npm-check) - 检查可更新的、错误的(有引用却没在package.json里出现)、无用的(在package.json里出现却没有用到) npm包
 
@@ -120,8 +112,8 @@
 
 - [shelljs](https://github.com/shelljs/shelljs) - 在js代码中运行shell语句
 - [commander](https://github.com/tj/commander.js) - 管理命令行的参数
+- [meow](https://github.com/sindresorhus/meow) - 便于创建命令行app
 - [inquirer](https://github.com/SBoudrias/Inquirer.js) - 在命令行里发起问答
-- [ink](https://github.com/vadimdemedes/ink) - 一个 React 的命令行渲染器，命令行界面可以像写页面那么写了
 
 ## 模板
 
@@ -131,7 +123,6 @@
 
 - [cheerio](https://github.com/cheeriojs/cheerio) - 用jQuery api的方式读取html模板里的内容
 - [iconv-lite](https://github.com/ashtuchkin/iconv-lite) - 改变返回页面的encoding，如果页面charset是gbk的可以使用这个
-- [he](https://github.com/mathiasbynens/he) - 前端encoder / decoder
 
 
 ## 时间
@@ -145,7 +136,6 @@
 
 ## 图形界面
 
-- [gg-editor](https://github.com/gaoli/GGEditor) - 包含流程图、脑图等
 - [echarts](https://github.com/apache/incubator-echarts) - 可视化库
 - [echarts-map-data](https://github.com/taozhiw/echarts-map-data) - 基于echarts的地图，包含世界各国，中国各省
 
@@ -172,7 +162,6 @@
 
 - [pinyin](https://github.com/hotoo/pinyin) - 汉字拼音转换工具
 - [lunar-calendar](https://github.com/zzyss86/LunarCalendar) - 农历（阴历）万年历类库
-- [pangu](https://github.com/vinta/pangu.js) - 基于Node.js的中文分词模块
 
 ## 装饰器
 
