@@ -94,6 +94,7 @@
 * [bunyan](https://github.com/trentm/node-bunyan) - Node日志库，包含主机名称，进程号等信息
 * [ora](https://github.com/sindresorhus/ora) - 可以在命令行里输出loading状态
 * [cliui](https://github.com/yargs/cliui) - 用类似css的方式控制命令行显示
+* [cli-table](https://github.com/Automattic/cli-table) - 在命令行打印表格
 
 ## 工具
 
@@ -161,10 +162,12 @@
 - [chokidar](https://github.com/paulmillr/chokidar) - 监听文件变化的库
 - [minimatch](https://github.com/isaacs/minimatch) - 判断一个文件路径是否匹配glob方式的路径
 - [mime](https://github.com/broofa/node-mime) - 获取一个文件的mime type
+- [find-up](https://github.com/sindresorhus/find-up) - 深度查找一个文件
 
 ## 验证
 
 - [ajv](https://github.com/epoberezkin/ajv) - JSON Schema 验证
+- [async-validator](https://github.com/yiminghe/async-validator) - 支持异步验证
 
 ## 中国
 
