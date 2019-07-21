@@ -34,10 +34,16 @@
 - [node-sass](https://github.com/sass/node-sass) - 将sass编译成css
 - [autoprefixer](https://github.com/postcss/autoprefixer) - 为css语句添加前缀
 
+## express
+
+* [body-parser](https://github.com/expressjs/body-parser) - 解析body
+* [multer](https://github.com/expressjs/multer) - 解析文件
+
 ## http
 
 - [axios](https://github.com/axios/axios) - 常用于的http请求工具
-- [mockjs](https://github.com/nuysoft/Mock) - 伪造的http请求
+- [mockjs](https://github.com/nuysoft/Mock) - 伪造http请求
+- [ua-parser-js](https://github.com/faisalman/ua-parser-js) - 解析User-Agent
 
 ## Promise
 
@@ -101,6 +107,7 @@
 - [doctoc](https://github.com/thlorenz/doctoc) - markdown目录生成工具
 - [debug](https://github.com/visionmedia/debug) - 调试工具，在调试模式下可以只针对某些功能进行调试
 - [npm-check](https://github.com/dylang/npm-check) - 检查可更新的、错误的(有引用却没在package.json里出现)、无用的(在package.json里出现却没有用到) npm包
+- [nodemon](https://github.com/remy/nodemon) - node代码更新后，服务器自动重启
 
 ## 浏览器
 
@@ -131,7 +138,11 @@
 
 ## 数字
 
-* [chancejs](https://github.com/chancejs/chancejs) - 生成随机数据的库
+* [chance](https://github.com/chancejs/chancejs) - 生成随机数据的库
+
+## 图片
+
+* [imagemagick](https://github.com/yourdeveloper/node-imagemagick) - node处理图片的库
 
 ## 图形界面
 
