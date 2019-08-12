@@ -4,6 +4,7 @@
 
 - [babel](#babel)
 - [css](#css)
+- [express](#express)
 - [http](#http)
 - [Promise](#promise)
 - [react](#react)
@@ -12,17 +13,19 @@
 - [测试](#%E6%B5%8B%E8%AF%95)
 - [打印](#%E6%89%93%E5%8D%B0)
 - [工具](#%E5%B7%A5%E5%85%B7)
+- [路径](#%E8%B7%AF%E5%BE%84)
 - [浏览器](#%E6%B5%8F%E8%A7%88%E5%99%A8)
 - [命令行](#%E5%91%BD%E4%BB%A4%E8%A1%8C)
 - [模板](#%E6%A8%A1%E6%9D%BF)
 - [爬虫](#%E7%88%AC%E8%99%AB)
 - [时间](#%E6%97%B6%E9%97%B4)
 - [数字](#%E6%95%B0%E5%AD%97)
+- [图片](#%E5%9B%BE%E7%89%87)
 - [图形界面](#%E5%9B%BE%E5%BD%A2%E7%95%8C%E9%9D%A2)
 - [文件系统](#%E6%96%87%E4%BB%B6%E7%B3%BB%E7%BB%9F)
+- [系统](#%E7%B3%BB%E7%BB%9F)
 - [验证](#%E9%AA%8C%E8%AF%81)
 - [中国](#%E4%B8%AD%E5%9B%BD)
-- [装饰器](#%E8%A3%85%E9%A5%B0%E5%99%A8)
 - [字符串](#%E5%AD%97%E7%AC%A6%E4%B8%B2)
 
 ## babel
@@ -94,14 +97,12 @@
 * [bunyan](https://github.com/trentm/node-bunyan) - Node日志库，包含主机名称，进程号等信息
 * [ora](https://github.com/sindresorhus/ora) - 可以在命令行里输出loading状态
 * [cliui](https://github.com/yargs/cliui) - 用类似css的方式控制命令行显示
-* [cli-table](https://github.com/Automattic/cli-table) - 在命令行打印表格
 
 ## 工具
 
 - [lodash](https://github.com/lodash/lodash) - 含有多个工具函数，包含数组，字符串，函数等类型
 - [color-convert](https://github.com/Qix-/color-convert) - 颜色格式转换
 - [fill-range](https://github.com/jonschlinkert/fill-range) - 补齐一段距离中间的数字、字母
-- [address](https://github.com/node-modules/address) - 检测本机IP, mac等
 - [bytes](https://github.com/visionmedia/bytes.js) - 把比特值转换成其他单位的
 - [semver](https://github.com/npm/node-semver) - 版本验证库
 - [cross-env](https://github.com/kentcdodds/cross-env) - 设置Node环境变量
@@ -110,10 +111,16 @@
 - [npm-check](https://github.com/dylang/npm-check) - 检查可更新的、错误的(有引用却没在package.json里出现)、无用的(在package.json里出现却没有用到) npm包
 - [nodemon](https://github.com/remy/nodemon) - node代码更新后，服务器自动重启
 
+## 路径
+
+* [path-to-regexp](https://github.com/pillarjs/path-to-regexp) - 路径解析成正则表达式，例如'detail/:id'
+* [minimatch](https://github.com/isaacs/minimatch) - 判断一个文件路径是否匹配glob方式的路径
+
 ## 浏览器
 
 - [browser-sync](https://github.com/BrowserSync/browser-sync) - 浏览器热更新，文件监听等
 - [open](https://github.com/sindresorhus/open) - 打开文件，网址等
+- [store](https://github.com/marcuswestin/store.js) - 操作浏览器的localStorage
 
 ## 命令行
 
@@ -121,6 +128,7 @@
 - [commander](https://github.com/tj/commander.js) - 管理命令行的参数
 - [meow](https://github.com/sindresorhus/meow) - 便于创建命令行app
 - [inquirer](https://github.com/SBoudrias/Inquirer.js) - 在命令行里发起问答
+- [shell-task](https://github.com/yyx990803/shell-task) - 串行执行shell语句
 
 ## 模板
 
@@ -160,23 +168,22 @@
 - [rimraf](https://github.com/isaacs/rimraf) - 深层次的删除文件
 - [treer](https://github.com/derycktse/treer) - 在命令行或者纯文本文件输出文件夹的文件树
 - [chokidar](https://github.com/paulmillr/chokidar) - 监听文件变化的库
-- [minimatch](https://github.com/isaacs/minimatch) - 判断一个文件路径是否匹配glob方式的路径
 - [mime](https://github.com/broofa/node-mime) - 获取一个文件的mime type
-- [find-up](https://github.com/sindresorhus/find-up) - 深度查找一个文件
+
+## 系统
+
+* [node-notifier](https://github.com/mikaelbr/node-notifier) - 发出系统通知，兼容MacOs、Windows、Linux
+* [address](https://github.com/node-modules/address) - 检测本机IP, mac等
 
 ## 验证
 
 - [ajv](https://github.com/epoberezkin/ajv) - JSON Schema 验证
-- [async-validator](https://github.com/yiminghe/async-validator) - 支持异步验证
+- [async-validator](https://github.com/yiminghe/async-validator) - 为表单提供验证，支持异步
 
 ## 中国
 
 - [pinyin](https://github.com/hotoo/pinyin) - 汉字拼音转换工具
 - [lunar-calendar](https://github.com/zzyss86/LunarCalendar) - 农历（阴历）万年历类库
-
-## 装饰器
-
-- [lodash-decorators](https://github.com/steelsojka/lodash-decorators) - lodash的装饰器
 
 ## 字符串
 
