@@ -48,6 +48,11 @@
 - [mockjs](https://github.com/nuysoft/Mock) - 伪造http请求
 - [ua-parser-js](https://github.com/faisalman/ua-parser-js) - 解析User-Agent
 
+## npm
+
+* [npm-try-cli](https://github.com/luin/npm-try) - 在命令行里就可以简单使用npm模块，无需在编辑器里编辑
+* [npm-check](https://github.com/dylang/npm-check) - 检查可更新的、错误的(有引用却没在package.json里出现)、无用的(在package.json里出现却没有用到) npm包
+
 ## Promise
 
 * [p-each-series](https://github.com/sindresorhus/p-each-series) - 所有异步代码可以在队列中按顺序执行
@@ -108,13 +113,13 @@
 - [cross-env](https://github.com/kentcdodds/cross-env) - 设置Node环境变量
 - [doctoc](https://github.com/thlorenz/doctoc) - markdown目录生成工具
 - [debug](https://github.com/visionmedia/debug) - 调试工具，在调试模式下可以只针对某些功能进行调试
-- [npm-check](https://github.com/dylang/npm-check) - 检查可更新的、错误的(有引用却没在package.json里出现)、无用的(在package.json里出现却没有用到) npm包
 - [nodemon](https://github.com/remy/nodemon) - node代码更新后，服务器自动重启
 
 ## 路径
 
 * [path-to-regexp](https://github.com/pillarjs/path-to-regexp) - 路径解析成正则表达式，例如'detail/:id'
 * [minimatch](https://github.com/isaacs/minimatch) - 判断一个文件路径是否匹配glob方式的路径
+* [relateurl](https://github.com/stevenvachon/relateurl) - 将路径最简化，包括简化成相对路径
 
 ## 浏览器
 
