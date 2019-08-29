@@ -110,6 +110,10 @@
 - [npm-check](https://github.com/dylang/npm-check) - 检查可更新的、错误的(有引用却没在package.json里出现)、无用的(在package.json里出现却没有用到) npm包
 - [nodemon](https://github.com/remy/nodemon) - node代码更新后，服务器自动重启
 
+## 进程
+
+* [signal-exit](https://github.com/tapjs/signal-exit) - 进程结束的回调函数
+
 ## 浏览器
 
 - [browser-sync](https://github.com/BrowserSync/browser-sync) - 浏览器热更新，文件监听等
@@ -163,6 +167,7 @@
 - [minimatch](https://github.com/isaacs/minimatch) - 判断一个文件路径是否匹配glob方式的路径
 - [mime](https://github.com/broofa/node-mime) - 获取一个文件的mime type
 - [find-up](https://github.com/sindresorhus/find-up) - 深度查找一个文件
+- [slash](https://github.com/sindresorhus/slash) - 统一Windows和Linux平台的路径格式
 
 ## 验证
 
