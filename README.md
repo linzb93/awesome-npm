@@ -45,8 +45,9 @@
 ## http
 
 - [axios](https://github.com/axios/axios) - 常用于的http请求工具
-- [mockjs](https://github.com/nuysoft/Mock) - 伪造http请求
+- [mockjs](https://github.com/nuysoft/Mock) - 伪造数据，http请求
 - [ua-parser-js](https://github.com/faisalman/ua-parser-js) - 解析User-Agent
+- [detect-port](https://github.com/node-modules/detect-port) - 检测端口是否被占用，并推荐没有被占用的端口号
 
 ## npm
 
@@ -194,3 +195,4 @@
 
 * [diff](https://github.com/kpdecker/jsdiff#readme) - 字符串比较
 * [uuid](https://github.com/kelektiv/node-uuid) - 生成唯一的id
+* [balanced-match](https://github.com/juliangruber/balanced-match) - 匹配括号对，包括"{}, (), <>"等
