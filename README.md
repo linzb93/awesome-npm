@@ -116,6 +116,9 @@
 - [debug](https://github.com/visionmedia/debug) - 调试工具，在调试模式下可以只针对某些功能进行调试
 - [nodemon](https://github.com/remy/nodemon) - node代码更新后，服务器自动重启
 
+## 进程
+
+* [signal-exit](https://github.com/tapjs/signal-exit) - 进程结束的回调函数
 ## 路径
 
 * [path-to-regexp](https://github.com/pillarjs/path-to-regexp) - 路径解析成正则表达式，例如'detail/:id'
@@ -175,6 +178,8 @@
 - [treer](https://github.com/derycktse/treer) - 在命令行或者纯文本文件输出文件夹的文件树
 - [chokidar](https://github.com/paulmillr/chokidar) - 监听文件变化的库
 - [mime](https://github.com/broofa/node-mime) - 获取一个文件的mime type
+- [find-up](https://github.com/sindresorhus/find-up) - 深度查找一个文件
+- [slash](https://github.com/sindresorhus/slash) - 统一Windows和Linux平台的路径格式
 
 ## 系统
 
