@@ -48,6 +48,7 @@
 - [mockjs](https://github.com/nuysoft/Mock) - 伪造数据，http请求
 - [ua-parser-js](https://github.com/faisalman/ua-parser-js) - 解析User-Agent
 - [detect-port](https://github.com/node-modules/detect-port) - 检测端口是否被占用，并推荐没有被占用的端口号
+- [on-finished](https://github.com/jshttp/on-finished) - http服务器关闭时的回调函数
 
 ## npm
 
@@ -73,6 +74,10 @@
 * [ant-design](https://github.com/ant-design/ant-design) - react的UI库
 * [ant-design-pro](https://github.com/ant-design/ant-design-pro) - react后台管理系统解决方案
 * [umi](https://github.com/umijs/umi) - react脚手架
+
+## stream
+
+* [through2](https://github.com/rvagg/through2) - 直观的处理流数据，不需要在on('data')里面处理
 
 ## vue
 
@@ -115,6 +120,7 @@
 - [doctoc](https://github.com/thlorenz/doctoc) - markdown目录生成工具
 - [debug](https://github.com/visionmedia/debug) - 调试工具，在调试模式下可以只针对某些功能进行调试
 - [nodemon](https://github.com/remy/nodemon) - node代码更新后，服务器自动重启
+- [depd](https://github.com/dougwilson/nodejs-depd) - 提醒用户正在调用废弃的接口
 
 ## 进程
 
