@@ -44,7 +44,7 @@
 
 ## http
 
-- [axios](https://github.com/axios/axios) - 常用于的http请求工具
+- [axios](https://github.com/axios/axios) - 常用的http请求工具
 - [mockjs](https://github.com/nuysoft/Mock) - 伪造数据，http请求
 - [ua-parser-js](https://github.com/faisalman/ua-parser-js) - 解析User-Agent
 - [detect-port](https://github.com/node-modules/detect-port) - 检测端口是否被占用，并推荐没有被占用的端口号
@@ -54,6 +54,7 @@
 
 * [npm-try-cli](https://github.com/luin/npm-try) - 在命令行里就可以简单使用npm模块，无需在编辑器里编辑
 * [npm-check](https://github.com/dylang/npm-check) - 检查可更新的、错误的(有引用却没在package.json里出现)、无用的(在package.json里出现却没有用到) npm包
+* [semver](https://github.com/npm/node-semver) - 版本验证库
 
 ## Promise
 
@@ -115,12 +116,12 @@
 - [color-convert](https://github.com/Qix-/color-convert) - 颜色格式转换
 - [fill-range](https://github.com/jonschlinkert/fill-range) - 补齐一段距离中间的数字、字母
 - [bytes](https://github.com/visionmedia/bytes.js) - 把比特值转换成其他单位的
-- [semver](https://github.com/npm/node-semver) - 版本验证库
 - [cross-env](https://github.com/kentcdodds/cross-env) - 设置Node环境变量
 - [doctoc](https://github.com/thlorenz/doctoc) - markdown目录生成工具
 - [debug](https://github.com/visionmedia/debug) - 调试工具，在调试模式下可以只针对某些功能进行调试
 - [nodemon](https://github.com/remy/nodemon) - node代码更新后，服务器自动重启
 - [depd](https://github.com/dougwilson/nodejs-depd) - 提醒用户正在调用废弃的接口
+- [jsonwebtoken](https://github.com/auth0/node-jsonwebtoken) - 创建web token
 
 ## 进程
 
