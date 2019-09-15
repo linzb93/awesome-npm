@@ -1,4 +1,4 @@
-# awesome- npm
+# awesome-npm
 
 ## 目录
 
@@ -6,13 +6,18 @@
 - [css](#css)
 - [express](#express)
 - [http](#http)
+- [markdown](#markdown)
+- [Node](#node)
+- [npm](#npm)
 - [Promise](#promise)
 - [react](#react)
+- [stream](#stream)
 - [vue](#vue)
 - [webpack](#webpack)
 - [测试](#%E6%B5%8B%E8%AF%95)
 - [打印](#%E6%89%93%E5%8D%B0)
 - [工具](#%E5%B7%A5%E5%85%B7)
+- [进程](#%E8%BF%9B%E7%A8%8B)
 - [路径](#%E8%B7%AF%E5%BE%84)
 - [浏览器](#%E6%B5%8F%E8%A7%88%E5%99%A8)
 - [命令行](#%E5%91%BD%E4%BB%A4%E8%A1%8C)
@@ -24,6 +29,7 @@
 - [图形界面](#%E5%9B%BE%E5%BD%A2%E7%95%8C%E9%9D%A2)
 - [文件系统](#%E6%96%87%E4%BB%B6%E7%B3%BB%E7%BB%9F)
 - [系统](#%E7%B3%BB%E7%BB%9F)
+- [颜色](#%E9%A2%9C%E8%89%B2)
 - [验证](#%E9%AA%8C%E8%AF%81)
 - [中国](#%E4%B8%AD%E5%9B%BD)
 - [字符串](#%E5%AD%97%E7%AC%A6%E4%B8%B2)
@@ -40,7 +46,7 @@
 ## express
 
 * [body-parser](https://github.com/expressjs/body-parser) - 解析body
-* [multer](https://github.com/expressjs/multer) - 解析文件
+* [multer](https://github.com/expressjs/multer) - 解析上传的文件
 
 ## http
 
@@ -49,12 +55,24 @@
 - [ua-parser-js](https://github.com/faisalman/ua-parser-js) - 解析User-Agent
 - [detect-port](https://github.com/node-modules/detect-port) - 检测端口是否被占用，并推荐没有被占用的端口号
 - [on-finished](https://github.com/jshttp/on-finished) - http服务器关闭时的回调函数
+- [jsonwebtoken](https://github.com/auth0/node-jsonwebtoken) - 创建与验证web token
+
+## markdown
+
+* [markdown-it](https://github.com/markdown-it/markdown-it)-  解析markdown的
+* [doctoc](https://github.com/thlorenz/doctoc) - markdown目录生成工具
+
+## Node
+
+* [cross-env](https://github.com/kentcdodds/cross-env) - 设置Node环境变量
+* [nodemon](https://github.com/remy/nodemon) - node代码更新后，服务器自动重启
 
 ## npm
 
 * [npm-try-cli](https://github.com/luin/npm-try) - 在命令行里就可以简单使用npm模块，无需在编辑器里编辑
 * [npm-check](https://github.com/dylang/npm-check) - 检查可更新的、错误的(有引用却没在package.json里出现)、无用的(在package.json里出现却没有用到) npm包
 * [semver](https://github.com/npm/node-semver) - 版本验证库
+* [pkg-conf](https://github.com/sindresorhus/pkg-conf) - 获取项目package.json信息
 
 ## Promise
 
@@ -69,16 +87,19 @@
 * [redux-saga](https://github.com/redux-saga/redux-saga) - redux的异步行为中间件
 * [redux-logger](https://github.com/LogRocket/redux-logger) - redux查看state的中间件
 * [react-router](https://github.com/ReactTraining/react-router) - react的路由管理
-* [reselect](https://github.com/reduxjs/reselect) - 缓存redux state派生的数据
+* [reselect](https://github.com/reduxjs/reselect) - 缓存redux state派生的数据，减少中间的计算量
 * [classnames](https://github.com/JedWatson/classnames) - 用来控制类名的工具，代码可读性高
 * [immer](https://github.com/immerjs/immer) - 通过改变当前数据来生成下一个不可变数据
 * [ant-design](https://github.com/ant-design/ant-design) - react的UI库
 * [ant-design-pro](https://github.com/ant-design/ant-design-pro) - react后台管理系统解决方案
 * [umi](https://github.com/umijs/umi) - react脚手架
+* [next](https://github.com/zeit/next.js) - react服务端渲染
+* prop-types - react props验证
 
 ## stream
 
 * [through2](https://github.com/rvagg/through2) - 直观的处理流数据，不需要在on('data')里面处理
+* [pump](https://github.com/mafintosh/pump) - 结合读写stream，在其中一个stream被销毁时自动销毁其他stream，无需手动处理
 
 ## vue
 
@@ -113,15 +134,9 @@
 ## 工具
 
 - [lodash](https://github.com/lodash/lodash) - 含有多个工具函数，包含数组，字符串，函数等类型
-- [color-convert](https://github.com/Qix-/color-convert) - 颜色格式转换
-- [fill-range](https://github.com/jonschlinkert/fill-range) - 补齐一段距离中间的数字、字母
 - [bytes](https://github.com/visionmedia/bytes.js) - 把比特值转换成其他单位的
-- [cross-env](https://github.com/kentcdodds/cross-env) - 设置Node环境变量
-- [doctoc](https://github.com/thlorenz/doctoc) - markdown目录生成工具
 - [debug](https://github.com/visionmedia/debug) - 调试工具，在调试模式下可以只针对某些功能进行调试
-- [nodemon](https://github.com/remy/nodemon) - node代码更新后，服务器自动重启
 - [depd](https://github.com/dougwilson/nodejs-depd) - 提醒用户正在调用废弃的接口
-- [jsonwebtoken](https://github.com/auth0/node-jsonwebtoken) - 创建web token
 
 ## 进程
 
@@ -131,6 +146,7 @@
 * [path-to-regexp](https://github.com/pillarjs/path-to-regexp) - 路径解析成正则表达式，例如'detail/:id'
 * [minimatch](https://github.com/isaacs/minimatch) - 判断一个文件路径是否匹配glob方式的路径
 * [relateurl](https://github.com/stevenvachon/relateurl) - 将路径最简化，包括简化成相对路径
+* [slash](https://github.com/sindresorhus/slash) - 统一Windows和Linux平台的路径格式
 
 ## 浏览器
 
@@ -160,6 +176,7 @@
 
 * [ms](https://github.com/zeit/ms) - 把毫秒转化成标准时间格式
 * [moment](https://github.com/moment/moment) - 功能丰富的日期库
+* [timeago.js](https://github.com/hustcc/timeago.js) - 将时间格式化成"**时间之前"的
 
 ## 数字
 
@@ -186,12 +203,16 @@
 - [chokidar](https://github.com/paulmillr/chokidar) - 监听文件变化的库
 - [mime](https://github.com/broofa/node-mime) - 获取一个文件的mime type
 - [find-up](https://github.com/sindresorhus/find-up) - 深度查找一个文件
-- [slash](https://github.com/sindresorhus/slash) - 统一Windows和Linux平台的路径格式
 
 ## 系统
 
 * [node-notifier](https://github.com/mikaelbr/node-notifier) - 发出系统通知，兼容MacOs、Windows、Linux
 * [address](https://github.com/node-modules/address) - 检测本机IP, mac等
+
+## 颜色
+
+* [color-convert](https://github.com/Qix-/color-convert) - 颜色格式转换
+* [color-string](https://github.com/Qix-/color-string) - 颜色生成与解析
 
 ## 验证
 
@@ -208,3 +229,4 @@
 * [diff](https://github.com/kpdecker/jsdiff#readme) - 字符串比较
 * [uuid](https://github.com/kelektiv/node-uuid) - 生成唯一的id
 * [balanced-match](https://github.com/juliangruber/balanced-match) - 匹配括号对，包括"{}, (), <>"等
+* [fill-range](https://github.com/jonschlinkert/fill-range) - 补齐一段距离中间的数字、字母
