@@ -1,4 +1,4 @@
-# awesome-npm
+# awesome-tools
 
 ## 目录
 
@@ -190,6 +190,7 @@
 
 - [echarts](https://github.com/apache/incubator-echarts) - 可视化库
 - [echarts-map-data](https://github.com/taozhiw/echarts-map-data) - 基于echarts的地图，包含世界各国，中国各省
+- [area-data](https://github.com/linzb93/area-data) - 中国各省市县地区6位数编码
 
 ## 文件系统
 
