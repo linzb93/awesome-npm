@@ -48,6 +48,11 @@
 * [body-parser](https://github.com/expressjs/body-parser) - 解析body
 * [multer](https://github.com/expressjs/multer) - 解析上传的文件
 
+## git
+
+* [download-git-repo](https://github.com/flipxfx/download-git-repo) - 从Github、Gitlab这些地方下载git仓库
+* [husky](https://github.com/typicode/husky) - pre git commit 和 pre git push 的钩子
+
 ## http
 
 - [axios](https://github.com/axios/axios) - 常用的http请求工具
@@ -165,6 +170,7 @@
 ## 模板
 
 - [shtml2html](https://github.com/librajt/shtml2html) - 编译shtml文件，转换成html
+- [ejs](https://github.com/mde/ejs) - Node模板引擎
 
 ## 爬虫
 
