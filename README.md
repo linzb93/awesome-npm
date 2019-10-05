@@ -43,10 +43,19 @@
 - [node-sass](https://github.com/sass/node-sass) - 将sass编译成css
 - [autoprefixer](https://github.com/postcss/autoprefixer) - 为css语句添加前缀
 
+## debug
+
+* [debug](https://github.com/visionmedia/debug) - 调试工具，在调试模式下可以只针对某些功能进行调试
+* [depd](https://github.com/dougwilson/nodejs-depd) - 提醒用户正在调用废弃的接口
+
 ## express
 
 * [body-parser](https://github.com/expressjs/body-parser) - 解析body
 * [multer](https://github.com/expressjs/multer) - 解析上传的文件
+
+## ftp
+
+* [sftp-sync-deploy](https://github.com/dobbydog/sftp-sync-deploy) - FTP文件上传工具
 
 ## git
 
@@ -99,12 +108,15 @@
 * [ant-design-pro](https://github.com/ant-design/ant-design-pro) - react后台管理系统解决方案
 * [umi](https://github.com/umijs/umi) - react脚手架
 * [next](https://github.com/zeit/next.js) - react服务端渲染
-* prop-types - react props验证
+* [prop-types](https://www.npmjs.com/package/prop-types) - react props验证
+* [react-image-crop](https://github.com/DominicTobias/react-image-crop) - 图片裁切
 
 ## stream
 
 * [through2](https://github.com/rvagg/through2) - 直观的处理流数据，不需要在on('data')里面处理
 * [pump](https://github.com/mafintosh/pump) - 结合读写stream，在其中一个stream被销毁时自动销毁其他stream，无需手动处理
+* [into-stream](https://github.com/sindresorhus/into-stream) - 将string或buffer类型的转成stream
+* [get-stream](https://github.com/sindresorhus/get-stream) - 将stream转换成string或buffer类型的
 
 ## vue
 
@@ -127,25 +139,23 @@
 ## 打印
 
 * [chalk](https://github.com/chalk/chalk) - 命令行着色美化库
-* [signale](https://github.com/klaussinani/signale)-  一个 Node 的日志格式库，自带 16 个级别，可以定制颜色和 Emoji
 * [boxen](https://github.com/sindresorhus/boxen) - 在命令行里用边框包裹输出内容
 * [figures](https://github.com/sindresorhus/figures) - 在命令行里输入图标
 * [progress](https://github.com/visionmedia/node-progress) - 在命令行显示进度条
-* [log4js](https://github.com/log4js-node/log4js-node) - Node标准日志库
-* [bunyan](https://github.com/trentm/node-bunyan) - Node日志库，包含主机名称，进程号等信息
 * [ora](https://github.com/sindresorhus/ora) - 可以在命令行里输出loading状态
 * [cliui](https://github.com/yargs/cliui) - 用类似css的方式控制命令行显示
+* [cli-cursor](https://github.com/sindresorhus/cli-cursor) - 控制命令行光标显示隐藏，搭配progress这类命令行界面更新时光标不会隐藏的库
+* [signale](https://github.com/klaussinani/signale)-  一个 Node 的命令行输出，自带 16 个级别，可以定制颜色和 Emoji
+* [log-update](https://github.com/sindresorhus/log-update) - 在命令行输出帧动画
 
 ## 工具
 
 - [lodash](https://github.com/lodash/lodash) - 含有多个工具函数，包含数组，字符串，函数等类型
-- [bytes](https://github.com/visionmedia/bytes.js) - 把比特值转换成其他单位的
-- [debug](https://github.com/visionmedia/debug) - 调试工具，在调试模式下可以只针对某些功能进行调试
-- [depd](https://github.com/dougwilson/nodejs-depd) - 提醒用户正在调用废弃的接口
 
 ## 进程
 
 * [signal-exit](https://github.com/tapjs/signal-exit) - 进程结束的回调函数
+* [execa](https://github.com/sindresorhus/execa) - child_process的升级版
 ## 路径
 
 * [path-to-regexp](https://github.com/pillarjs/path-to-regexp) - 路径解析成正则表达式，例如'detail/:id'
@@ -165,7 +175,6 @@
 - [commander](https://github.com/tj/commander.js) - 管理命令行的参数
 - [meow](https://github.com/sindresorhus/meow) - 便于创建命令行app
 - [inquirer](https://github.com/SBoudrias/Inquirer.js) - 在命令行里发起问答
-- [shell-task](https://github.com/yyx990803/shell-task) - 串行执行shell语句
 
 ## 模板
 
@@ -176,6 +185,11 @@
 
 - [cheerio](https://github.com/cheeriojs/cheerio) - 用jQuery api的方式读取html模板里的内容
 - [iconv-lite](https://github.com/ashtuchkin/iconv-lite) - 改变返回页面的encoding，如果页面charset是gbk的可以使用这个
+
+## 日志
+
+* [log4js](https://github.com/log4js-node/log4js-node) - Node标准日志库
+* [bunyan](https://github.com/trentm/node-bunyan) - Node日志库，包含主机名称，进程号等信息
 
 
 ## 时间
@@ -198,12 +212,13 @@
 - [echarts-map-data](https://github.com/taozhiw/echarts-map-data) - 基于echarts的地图，包含世界各国，中国各省
 - [area-data](https://github.com/linzb93/area-data) - 中国各省市县地区6位数编码
 
-## 文件系统
+## 文件
 
 - [del](https://github.com/sindresorhus/del) - 删除文件和文件夹
 - [glob](https://github.com/isaacs/node-glob) - 文件查找，类似shell匹配文件的格式
 - [glob-parent](https://github.com/es128/glob-parent) - 获取文件所在文件夹的路径
-- [mkdirp](https://github.com/substack/node-mkdirp) - 提供递归的文件夹创建。在node V10.12.0后由fs.mkdir提供。
+- [mkdirp](https://github.com/substack/node-mkdirp) - 提供递归的文件夹创建。在node V10.12.0后由fs.mkdir提供
+- [bytes](https://github.com/visionmedia/bytes.js) - 把比特值转换成其他单位的
 - [fs-extra](https://github.com/jprichardson/node-fs-extra) - node的fs模块的拓展，支持Promise
 - [rimraf](https://github.com/isaacs/rimraf) - 深层次的删除文件
 - [treer](https://github.com/derycktse/treer) - 在命令行或者纯文本文件输出文件夹的文件树
@@ -215,6 +230,7 @@
 
 * [node-notifier](https://github.com/mikaelbr/node-notifier) - 发出系统通知，兼容MacOs、Windows、Linux
 * [address](https://github.com/node-modules/address) - 检测本机IP, mac等
+* [clipboardy](https://github.com/sindresorhus/clipboardy) - 剪贴板
 
 ## 颜色
 
