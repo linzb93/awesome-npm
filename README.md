@@ -4,7 +4,10 @@
 
 - [babel](#babel)
 - [css](#css)
+- [debug](#debug)
 - [express](#express)
+- [ftp](#ftp)
+- [git](#git)
 - [http](#http)
 - [markdown](#markdown)
 - [Node](#node)
@@ -23,11 +26,12 @@
 - [命令行](#%E5%91%BD%E4%BB%A4%E8%A1%8C)
 - [模板](#%E6%A8%A1%E6%9D%BF)
 - [爬虫](#%E7%88%AC%E8%99%AB)
+- [日志](#%E6%97%A5%E5%BF%97)
 - [时间](#%E6%97%B6%E9%97%B4)
 - [数字](#%E6%95%B0%E5%AD%97)
 - [图片](#%E5%9B%BE%E7%89%87)
 - [图形界面](#%E5%9B%BE%E5%BD%A2%E7%95%8C%E9%9D%A2)
-- [文件系统](#%E6%96%87%E4%BB%B6%E7%B3%BB%E7%BB%9F)
+- [文件](#%E6%96%87%E4%BB%B6)
 - [系统](#%E7%B3%BB%E7%BB%9F)
 - [颜色](#%E9%A2%9C%E8%89%B2)
 - [验证](#%E9%AA%8C%E8%AF%81)
@@ -47,6 +51,7 @@
 
 * [debug](https://github.com/visionmedia/debug) - 调试工具，在调试模式下可以只针对某些功能进行调试
 * [depd](https://github.com/dougwilson/nodejs-depd) - 提醒用户正在调用废弃的接口
+* [pretty-error](https://github.com/AriaMinaei/pretty-error) - 美化错误提示
 
 ## express
 
@@ -142,11 +147,18 @@
 * [boxen](https://github.com/sindresorhus/boxen) - 在命令行里用边框包裹输出内容
 * [figures](https://github.com/sindresorhus/figures) - 在命令行里输入图标
 * [progress](https://github.com/visionmedia/node-progress) - 在命令行显示进度条
-* [ora](https://github.com/sindresorhus/ora) - 可以在命令行里输出loading状态
+* [ora](https://github.com/sindresorhus/ora) - 可以在命令行里输出spinner
 * [cliui](https://github.com/yargs/cliui) - 用类似css的方式控制命令行显示
 * [cli-cursor](https://github.com/sindresorhus/cli-cursor) - 控制命令行光标显示隐藏，搭配progress这类命令行界面更新时光标不会隐藏的库
 * [signale](https://github.com/klaussinani/signale)-  一个 Node 的命令行输出，自带 16 个级别，可以定制颜色和 Emoji
 * [log-update](https://github.com/sindresorhus/log-update) - 在命令行输出帧动画
+* [word-wrap](https://github.com/substack/node-wordwrap) - 输出内容分行显示
+* [terminal-link](https://github.com/sindresorhus/terminal-link) - 在命令行输出链接
+* [cli-columns](https://github.com/shannonmoeller/cli-columns) - 输出内容等宽纵向按顺序显示
+* [cli-truncate](https://github.com/sindresorhus/cli-truncate) - 将部分输出内容转换为省略号
+* [multispinner](https://github.com/codekirei/node-multispinner) - 同时生成多个spinner，适合并发的任务
+* [gradient-string](https://github.com/bokub/gradient-string) - 渐变的字符串
+* [term-size](https://github.com/sindresorhus/term-size) - 获取命令行的尺寸
 
 ## 工具
 
@@ -205,6 +217,7 @@
 ## 图片
 
 * [imagemagick](https://github.com/yourdeveloper/node-imagemagick) - node处理图片的库
+* [qrcode](https://github.com/soldair/node-qrcode) - 二维码生成工具
 
 ## 图形界面
 
