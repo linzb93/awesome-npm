@@ -116,6 +116,11 @@
 * [prop-types](https://www.npmjs.com/package/prop-types) - react props验证
 * [react-image-crop](https://github.com/DominicTobias/react-image-crop) - 图片裁切
 
+## socket
+
+* [ws](https://github.com/websockets/ws) - Websocket，可用于客户端和服务端
+* [socket.io](https://github.com/socketio/socket.io) - Node实时通讯框架
+
 ## stream
 
 * [through2](https://github.com/rvagg/through2) - 直观的处理流数据，不需要在on('data')里面处理
