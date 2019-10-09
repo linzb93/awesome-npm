@@ -123,6 +123,10 @@
 * [into-stream](https://github.com/sindresorhus/into-stream) - 将string或buffer类型的转成stream
 * [get-stream](https://github.com/sindresorhus/get-stream) - 将stream转换成string或buffer类型的
 
+## url
+
+* [normalize-url](https://github.com/sindresorhus/normalize-url) - url规范化
+
 ## vue
 
 * [vuex](https://github.com/vuejs/vuex) - vue的状态管理工具
@@ -150,7 +154,7 @@
 * [ora](https://github.com/sindresorhus/ora) - 可以在命令行里输出spinner
 * [cliui](https://github.com/yargs/cliui) - 用类似css的方式控制命令行显示
 * [cli-cursor](https://github.com/sindresorhus/cli-cursor) - 控制命令行光标显示隐藏，搭配progress这类命令行界面更新时光标不会隐藏的库
-* [signale](https://github.com/klaussinani/signale)-  一个 Node 的命令行输出，自带 16 个级别，可以定制颜色和 Emoji
+* [signale](https://github.com/klaussinani/signale) -  一个 Node 的命令行输出，自带 16 个级别，可以定制颜色和 Emoji
 * [log-update](https://github.com/sindresorhus/log-update) - 在命令行输出帧动画
 * [word-wrap](https://github.com/substack/node-wordwrap) - 输出内容分行显示
 * [terminal-link](https://github.com/sindresorhus/terminal-link) - 在命令行输出链接
@@ -159,6 +163,7 @@
 * [multispinner](https://github.com/codekirei/node-multispinner) - 同时生成多个spinner，适合并发的任务
 * [gradient-string](https://github.com/bokub/gradient-string) - 渐变的字符串
 * [term-size](https://github.com/sindresorhus/term-size) - 获取命令行的尺寸
+* [wide-align](https://github.com/iarna/wide-align) - 内容居中显示
 
 ## 工具
 
@@ -216,8 +221,9 @@
 
 ## 图片
 
-* [imagemagick](https://github.com/yourdeveloper/node-imagemagick) - node处理图片的库
 * [qrcode](https://github.com/soldair/node-qrcode) - 二维码生成工具
+* [sharp](https://github.com/lovell/sharp) - node处理图片的库
+* [imagemin](https://github.com/imagemin/imagemin) - 压缩图片的库，需要引入插件
 
 ## 图形界面
 
@@ -238,6 +244,7 @@
 - [chokidar](https://github.com/paulmillr/chokidar) - 监听文件变化的库
 - [mime](https://github.com/broofa/node-mime) - 获取一个文件的mime type
 - [find-up](https://github.com/sindresorhus/find-up) - 深度查找一个文件
+- [file-type](https://github.com/sindresorhus/file-type) - 检测一个Buffer的文件类型
 
 ## 系统
 
@@ -249,6 +256,7 @@
 
 * [color-convert](https://github.com/Qix-/color-convert) - 颜色格式转换
 * [color-string](https://github.com/Qix-/color-string) - 颜色生成与解析
+* [color](https://github.com/Qix-/color) - 颜色值转换与计算的库
 
 ## 验证
 
