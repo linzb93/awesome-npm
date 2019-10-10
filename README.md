@@ -190,6 +190,7 @@
 - [browser-sync](https://github.com/BrowserSync/browser-sync) - 浏览器热更新，文件监听等
 - [open](https://github.com/sindresorhus/open) - 打开文件，网址等
 - [store](https://github.com/marcuswestin/store.js) - 操作浏览器的localStorage
+- [html2canvas](https://github.com/niklasvh/html2canvas) - HTML转换为canvas图片
 
 ## 命令行
 
@@ -256,6 +257,8 @@
 * [node-notifier](https://github.com/mikaelbr/node-notifier) - 发出系统通知，兼容MacOs、Windows、Linux
 * [address](https://github.com/node-modules/address) - 检测本机IP, mac等
 * [clipboardy](https://github.com/sindresorhus/clipboardy) - 剪贴板
+* [os-name](https://github.com/sindresorhus/os-name) - 获取系统名称
+* [wallpaper](https://github.com/sindresorhus/wallpaper) - 设置/获取桌面壁纸
 
 ## 颜色
 
