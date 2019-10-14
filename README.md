@@ -257,8 +257,12 @@
 * [node-notifier](https://github.com/mikaelbr/node-notifier) - 发出系统通知，兼容MacOs、Windows、Linux
 * [address](https://github.com/node-modules/address) - 检测本机IP, mac等
 * [clipboardy](https://github.com/sindresorhus/clipboardy) - 剪贴板
-* [os-name](https://github.com/sindresorhus/os-name) - 获取系统名称
 * [wallpaper](https://github.com/sindresorhus/wallpaper) - 设置/获取桌面壁纸
+* [systeminformation](https://github.com/sebhildebrandt/systeminformation) - 获取系统详细参数
+
+## 压缩
+
+* [archiver](https://github.com/archiverjs/node-archiver) - 多文件压缩
 
 ## 颜色
 
