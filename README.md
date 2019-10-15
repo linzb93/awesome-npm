@@ -170,6 +170,10 @@
 * [term-size](https://github.com/sindresorhus/term-size) - 获取命令行的尺寸
 * [wide-align](https://github.com/iarna/wide-align) - 内容居中显示
 
+## 代码
+
+* [prettier](https://github.com/prettier/prettier) - 代码格式化工具
+
 ## 工具
 
 - [lodash](https://github.com/lodash/lodash) - 含有多个工具函数，包含数组，字符串，函数等类型
@@ -205,6 +209,8 @@
 - [ejs](https://github.com/mde/ejs) - Node模板引擎
 
 ## 爬虫
+
+* [puppeteer](https://github.com/GoogleChrome/puppeteer) - 功能最强大的爬虫工具，使用headless浏览器，支持模拟点击等功能抓取页面
 
 - [cheerio](https://github.com/cheeriojs/cheerio) - 用jQuery api的方式读取html模板里的内容
 - [iconv-lite](https://github.com/ashtuchkin/iconv-lite) - 改变返回页面的encoding，如果页面charset是gbk的可以使用这个
