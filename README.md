@@ -84,7 +84,8 @@
 ## Node
 
 * [cross-env](https://github.com/kentcdodds/cross-env) - 设置Node环境变量
-* [nodemon](https://github.com/remy/nodemon) - node代码更新后，服务器自动重启
+* [nodemon](https://github.com/remy/nodemon) - Node代码更新后，服务器自动重启
+* [builtin-modules](https://github.com/sindresorhus/builtin-modules) - Node内置module
 
 ## npm
 
@@ -108,12 +109,13 @@
 * [react-router](https://github.com/ReactTraining/react-router) - react的路由管理
 * [reselect](https://github.com/reduxjs/reselect) - 缓存redux state派生的数据，减少中间的计算量
 * [classnames](https://github.com/JedWatson/classnames) - 用来控制类名的工具，代码可读性高
-* [immer](https://github.com/immerjs/immer) - 通过改变当前数据来生成下一个不可变数据
+* [immer](https://github.com/immerjs/immer) - 生成不可变数据
 * [ant-design](https://github.com/ant-design/ant-design) - react的UI库
-* [ant-design-pro](https://github.com/ant-design/ant-design-pro) - react后台管理系统解决方案
+* [ant-design-pro](https://github.com/ant-design/ant-design-pro) - react后台管理系统解决方案, UI选用ant design
 * [umi](https://github.com/umijs/umi) - react脚手架
 * [next](https://github.com/zeit/next.js) - react服务端渲染
 * [prop-types](https://www.npmjs.com/package/prop-types) - react props验证
+* [react-html-table-to-excel](https://github.com/zsusac/ReactHTMLTableToExcel) - 将react table导出为excel
 * [react-image-crop](https://github.com/DominicTobias/react-image-crop) - 图片裁切
 
 ## socket
@@ -173,6 +175,7 @@
 ## 工具
 
 - [lodash](https://github.com/lodash/lodash) - 含有多个工具函数，包含数组，字符串，函数等类型
+- [undefsafe](https://github.com/remy/undefsafe) - 函数检索深对象属性没有时不会报错，只会返回undefined
 
 ## 进程
 
@@ -191,6 +194,7 @@
 - [open](https://github.com/sindresorhus/open) - 打开文件，网址等
 - [store](https://github.com/marcuswestin/store.js) - 操作浏览器的localStorage
 - [html2canvas](https://github.com/niklasvh/html2canvas) - HTML转换为canvas图片
+- [webuploader](https://github.com/fex-team/webuploader) - 文件上传解决方案，兼容到IE6
 
 ## 命令行
 
@@ -274,6 +278,10 @@
 
 - [ajv](https://github.com/epoberezkin/ajv) - JSON Schema 验证
 - [async-validator](https://github.com/yiminghe/async-validator) - 为表单提供验证，支持异步
+
+## 移动端
+
+
 
 ## 中国
 
