@@ -179,7 +179,7 @@
 ## 工具
 
 - [lodash](https://github.com/lodash/lodash) - 含有多个工具函数，包含数组，字符串，函数等类型
-- [undefsafe](https://github.com/remy/undefsafe) - 函数检索深对象属性没有时不会报错，只会返回undefined
+- [dot-prop](https://github.com/sindresorhus/dot-prop) 函数检索深对象属性没有时不会报错，只会返回undefined
 
 ## 进程
 
