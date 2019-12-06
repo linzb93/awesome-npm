@@ -117,6 +117,8 @@
 * [prop-types](https://www.npmjs.com/package/prop-types) - react props验证
 * [react-html-table-to-excel](https://github.com/zsusac/ReactHTMLTableToExcel) - 将react table导出为excel
 * [react-image-crop](https://github.com/DominicTobias/react-image-crop) - 图片裁切
+* [react-computed-props](https://github.com/pbeshai/react-computed-props) - 提供类似于vue的计算属性功能
+* [braft-editor](https://github.com/margox/braft-editor) - react富文本编辑器
 
 ## socket
 
