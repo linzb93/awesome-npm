@@ -287,12 +287,13 @@
 
 ## 移动端
 
-
+* [dropload](https://github.com/ximan/dropload) - 移动端下拉刷新、上拉加载更多插件
 
 ## 中国
 
 - [pinyin](https://github.com/hotoo/pinyin) - 汉字拼音转换工具
 - [lunar-calendar](https://github.com/zzyss86/LunarCalendar) - 农历（阴历）万年历类库
+- [Wavewindow](https://github.com/linzb93/Wavewindow) - 类似政府网站的飘窗
 
 ## 字符串
 
