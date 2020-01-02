@@ -57,6 +57,7 @@
 
 * [body-parser](https://github.com/expressjs/body-parser) - 解析body
 * [multer](https://github.com/expressjs/multer) - 解析上传的文件
+* [cors](https://github.com/expressjs/cors) - 处理跨域
 
 ## ftp
 
@@ -64,7 +65,7 @@
 
 ## git
 
-* [download-git-repo](https://github.com/flipxfx/download-git-repo) - 从Github、Gitlab这些地方下载git仓库
+* [download-git-repo](https://github.com/flipxfx/download-git-repo) - 从Github、Gitlab等下载git仓库
 * [husky](https://github.com/typicode/husky) - pre git commit 和 pre git push 的钩子
 
 ## http
@@ -119,6 +120,7 @@
 * [react-image-crop](https://github.com/DominicTobias/react-image-crop) - 图片裁切
 * [react-computed-props](https://github.com/pbeshai/react-computed-props) - 提供类似于vue的计算属性功能
 * [braft-editor](https://github.com/margox/braft-editor) - react富文本编辑器
+* [react-ace](https://github.com/securingsincity/react-ace) - react代码编辑器
 
 ## socket
 
@@ -268,13 +270,15 @@
 
 * [node-notifier](https://github.com/mikaelbr/node-notifier) - 发出系统通知，兼容MacOs、Windows、Linux
 * [address](https://github.com/node-modules/address) - 检测本机IP, mac等
-* [clipboardy](https://github.com/sindresorhus/clipboardy) - 剪贴板
+* [clipboardy](https://github.com/sindresorhus/clipboardy) - 剪贴板，用于Node.js
+* [copy-to-clipboard](https://github.com/sudodoki/copy-to-clipboard) - 剪贴板，用于浏览器
 * [wallpaper](https://github.com/sindresorhus/wallpaper) - 设置/获取桌面壁纸
 * [systeminformation](https://github.com/sebhildebrandt/systeminformation) - 获取系统详细参数
 
 ## 压缩
 
 * [archiver](https://github.com/archiverjs/node-archiver) - 多文件压缩
+* [unzip](https://github.com/EvanOxfeld/node-unzip) - 解压
 
 ## 颜色
 
@@ -284,7 +288,6 @@
 
 ## 验证
 
-- [ajv](https://github.com/epoberezkin/ajv) - JSON Schema 验证
 - [async-validator](https://github.com/yiminghe/async-validator) - 为表单提供验证，支持异步
 
 ## 移动端
