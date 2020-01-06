@@ -135,6 +135,7 @@
 ## url
 
 * [normalize-url](https://github.com/sindresorhus/normalize-url) - url规范化
+* [qs](https://github.com/ljharb/qs) - querystring库
 
 ## vue
 
