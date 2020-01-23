@@ -58,6 +58,7 @@
 * [body-parser](https://github.com/expressjs/body-parser) - 解析body
 * [multer](https://github.com/expressjs/multer) - 解析上传的文件
 * [cors](https://github.com/expressjs/cors) - 处理跨域
+* [helmet](https://github.com/helmetjs/helmet) - 使express app更安全
 
 ## ftp
 
@@ -190,6 +191,11 @@
 
 * [signal-exit](https://github.com/tapjs/signal-exit) - 进程结束的回调函数
 * [execa](https://github.com/sindresorhus/execa) - child_process的升级版
+## 框架
+
+* [nest](https://github.com/nestjs/nest) - 服务端框架，使用Typescript开发
+* [egg](https://github.com/eggjs/egg/) - 基于Koa的服务端框架
+
 ## 路径
 
 * [path-to-regexp](https://github.com/pillarjs/path-to-regexp) - 路径解析成正则表达式，例如'detail/:id'
@@ -208,8 +214,7 @@
 ## 命令行
 
 - [shelljs](https://github.com/shelljs/shelljs) - 在js代码中运行shell语句
-- [commander](https://github.com/tj/commander.js) - 管理命令行的参数
-- [meow](https://github.com/sindresorhus/meow) - 便于创建命令行app
+- [yargs](https://github.com/yargs/yargs) - 解析命令行参数
 - [inquirer](https://github.com/SBoudrias/Inquirer.js) - 在命令行里发起问答
 
 ## 模板
@@ -307,3 +312,4 @@
 * [uuid](https://github.com/kelektiv/node-uuid) - 生成唯一的id
 * [balanced-match](https://github.com/juliangruber/balanced-match) - 匹配括号对，包括"{}, (), <>"等
 * [fill-range](https://github.com/jonschlinkert/fill-range) - 补齐一段距离中间的数字、字母
+* [matcher](https://github.com/sindresorhus/matcher) - 判断字符串是否匹配规则
