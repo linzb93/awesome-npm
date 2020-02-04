@@ -1,8 +1,5 @@
 # awesome-tools
 
-## 目录
-
-- [babel](#babel)
 - [css](#css)
 - [debug](#debug)
 - [express](#express)
@@ -14,11 +11,14 @@
 - [npm](#npm)
 - [Promise](#promise)
 - [react](#react)
+- [socket](#socket)
 - [stream](#stream)
+- [url](#url)
 - [vue](#vue)
 - [webpack](#webpack)
 - [测试](#%E6%B5%8B%E8%AF%95)
 - [打印](#%E6%89%93%E5%8D%B0)
+- [代码](#%E4%BB%A3%E7%A0%81)
 - [工具](#%E5%B7%A5%E5%85%B7)
 - [进程](#%E8%BF%9B%E7%A8%8B)
 - [路径](#%E8%B7%AF%E5%BE%84)
@@ -33,14 +33,12 @@
 - [图形界面](#%E5%9B%BE%E5%BD%A2%E7%95%8C%E9%9D%A2)
 - [文件](#%E6%96%87%E4%BB%B6)
 - [系统](#%E7%B3%BB%E7%BB%9F)
+- [压缩](#%E5%8E%8B%E7%BC%A9)
 - [颜色](#%E9%A2%9C%E8%89%B2)
 - [验证](#%E9%AA%8C%E8%AF%81)
+- [移动端](#%E7%A7%BB%E5%8A%A8%E7%AB%AF)
 - [中国](#%E4%B8%AD%E5%9B%BD)
 - [字符串](#%E5%AD%97%E7%AC%A6%E4%B8%B2)
-
-## babel
-
-* [babel-plugin-transform-decorators-legacy](https://github.com/loganfsmyth/babel-plugin-transform-decorators-legacy) - 编译decorator的
 
 ## css
 
@@ -58,6 +56,8 @@
 * [body-parser](https://github.com/expressjs/body-parser) - 解析body
 * [multer](https://github.com/expressjs/multer) - 解析上传的文件
 * [cors](https://github.com/expressjs/cors) - 处理跨域
+* [express-http-proxy](https://github.com/villadora/express-http-proxy) - 处理代理
+* [helmet](https://github.com/helmetjs/helmet) - 安全处理HTTP请求
 
 ## ftp
 
@@ -100,6 +100,7 @@
 * [p-each-series](https://github.com/sindresorhus/p-each-series) - 所有异步代码可以在队列中按顺序执行
 * [pify](https://github.com/sindresorhus/pify) - 函数Promise化
 * [is-promise](https://github.com/then/is-promise) - 判断是否是Promise实例
+* [p-waterfall](https://github.com/sindresorhus/p-waterfall) - 所有异步代码可以在队列中按顺序执行，上一个函数的返回值作为下一个函数的参数
 
 
 ## react
