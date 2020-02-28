@@ -67,6 +67,7 @@
 
 * [download-git-repo](https://github.com/flipxfx/download-git-repo) - 从Github、Gitlab等下载git仓库
 * [husky](https://github.com/typicode/husky) - pre git commit 和 pre git push 的钩子
+* [simple-git](https://github.com/steveukx/git-js) - git API
 
 ## http
 
@@ -134,6 +135,7 @@
 * [pump](https://github.com/mafintosh/pump) - 结合读写stream，在其中一个stream被销毁时自动销毁其他stream，无需手动处理
 * [into-stream](https://github.com/sindresorhus/into-stream) - 将string或buffer类型的转成stream
 * [get-stream](https://github.com/sindresorhus/get-stream) - 将stream转换成string或buffer类型的
+* [binary-split](https://github.com/maxogden/binary-split) - 分割stream，默认是按行分割
 
 ## url
 
@@ -186,6 +188,7 @@
 
 - [lodash](https://github.com/lodash/lodash) - 含有多个工具函数，包含数组，字符串，函数等类型
 - [dot-prop](https://github.com/sindresorhus/dot-prop) 函数检索深对象属性没有时不会报错，只会返回undefined
+- [lru-cache](https://github.com/isaacs/node-lru-cache) - 限时存储数据，存储数据的store大小可设置
 
 ## 进程
 
@@ -202,6 +205,7 @@
 * [minimatch](https://github.com/isaacs/minimatch) - 判断一个文件路径是否匹配glob方式的路径
 * [relateurl](https://github.com/stevenvachon/relateurl) - 将路径最简化，包括简化成相对路径
 * [slash](https://github.com/sindresorhus/slash) - 统一Windows和Linux平台的路径格式
+* [glob-parent](https://github.com/es128/glob-parent) - 获取文件所在文件夹的路径
 
 ## 浏览器
 
@@ -261,11 +265,11 @@
 
 - [del](https://github.com/sindresorhus/del) - 删除文件和文件夹
 - [glob](https://github.com/isaacs/node-glob) - 文件查找，类似shell匹配文件的格式
-- [glob-parent](https://github.com/es128/glob-parent) - 获取文件所在文件夹的路径
 - [mkdirp](https://github.com/substack/node-mkdirp) - 提供递归的文件夹创建。在node V10.12.0后由fs.mkdir提供
 - [bytes](https://github.com/visionmedia/bytes.js) - 把比特值转换成其他单位的
 - [fs-extra](https://github.com/jprichardson/node-fs-extra) - node的fs模块的拓展，支持Promise
 - [rimraf](https://github.com/isaacs/rimraf) - 深层次的删除文件
+- [recursive-readdir](https://github.com/jergason/recursive-readdir) - 递归获取文件列表
 - [treer](https://github.com/derycktse/treer) - 在命令行或者纯文本文件输出文件夹的文件树
 - [chokidar](https://github.com/paulmillr/chokidar) - 监听文件变化的库
 - [mime](https://github.com/broofa/node-mime) - 获取一个文件的mime type
