@@ -220,6 +220,7 @@
 - [shelljs](https://github.com/shelljs/shelljs) - 在js代码中运行shell语句
 - [yargs](https://github.com/yargs/yargs) - 解析命令行参数
 - [inquirer](https://github.com/SBoudrias/Inquirer.js) - 在命令行里发起问答
+- [listr](https://github.com/SamVerschueren/listr) - 任务列表管理
 
 ## 模板
 
