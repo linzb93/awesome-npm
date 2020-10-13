@@ -99,6 +99,7 @@
 ## Promise
 
 * [p-each-series](https://github.com/sindresorhus/p-each-series) - 所有异步代码可以在队列中按顺序执行
+* [bluebird](https://github.com/petkaantonov/bluebird) - Promise库
 * [pify](https://github.com/sindresorhus/pify) - 函数Promise化
 * [is-promise](https://github.com/then/is-promise) - 判断是否是Promise实例
 * [p-waterfall](https://github.com/sindresorhus/p-waterfall) - 所有异步代码可以在队列中按顺序执行，上一个函数的返回值作为下一个函数的参数
