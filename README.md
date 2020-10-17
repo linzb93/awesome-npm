@@ -1,5 +1,7 @@
 # awesome-tools
 
+因Github更新不便，本仓库不再更新。最新版的文档请移步[语雀](https://www.yuque.com/linzb93/docs/stvdz6)。
+
 - [css](#css)
 - [debug](#debug)
 - [express](#express)
@@ -170,7 +172,6 @@
 * [ora](https://github.com/sindresorhus/ora) - 可以在命令行里输出spinner
 * [cliui](https://github.com/yargs/cliui) - 用类似css的方式控制命令行显示
 * [cli-cursor](https://github.com/sindresorhus/cli-cursor) - 控制命令行光标显示隐藏，搭配progress这类命令行界面更新时光标不会隐藏的库
-* [signale](https://github.com/klaussinani/signale) -  一个 Node 的命令行输出，自带 16 个级别，可以定制颜色和 Emoji
 * [log-update](https://github.com/sindresorhus/log-update) - 在命令行输出帧动画
 * [word-wrap](https://github.com/substack/node-wordwrap) - 输出内容分行显示
 * [terminal-link](https://github.com/sindresorhus/terminal-link) - 在命令行输出链接
@@ -178,7 +179,6 @@
 * [cli-truncate](https://github.com/sindresorhus/cli-truncate) - 将部分输出内容转换为省略号
 * [multispinner](https://github.com/codekirei/node-multispinner) - 同时生成多个spinner，适合并发的任务
 * [gradient-string](https://github.com/bokub/gradient-string) - 渐变的字符串
-* [term-size](https://github.com/sindresorhus/term-size) - 获取命令行的尺寸
 * [wide-align](https://github.com/iarna/wide-align) - 内容居中显示
 
 ## 代码
@@ -222,6 +222,8 @@
 - [yargs](https://github.com/yargs/yargs) - 解析命令行参数
 - [inquirer](https://github.com/SBoudrias/Inquirer.js) - 在命令行里发起问答
 - [listr](https://github.com/SamVerschueren/listr) - 任务列表管理
+- [term-size](https://github.com/sindresorhus/term-size) - 获取命令行的尺寸
+- [string-width](https://github.com/sindresorhus/string-width) - 获取字符串在命令行里面的长度
 
 ## 模板
 
@@ -231,7 +233,6 @@
 ## 爬虫
 
 * [puppeteer](https://github.com/GoogleChrome/puppeteer) - 功能最强大的爬虫工具，使用headless浏览器，支持模拟点击等功能抓取页面
-
 - [cheerio](https://github.com/cheeriojs/cheerio) - 用jQuery api的方式读取html模板里的内容
 - [iconv-lite](https://github.com/ashtuchkin/iconv-lite) - 改变返回页面的encoding，如果页面charset是gbk的可以使用这个
 
@@ -239,6 +240,7 @@
 
 * [log4js](https://github.com/log4js-node/log4js-node) - Node标准日志库
 * [bunyan](https://github.com/trentm/node-bunyan) - Node日志库，包含主机名称，进程号等信息
+* [signale](https://github.com/klaussinani/signale) -  一个 Node 的命令行输出，自带 16 个级别，可以定制颜色和 Emoji
 
 
 ## 时间
